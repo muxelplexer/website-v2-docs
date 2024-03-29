@@ -255,7 +255,7 @@ To install the Boost pass:[C++] libraries onto Arch-based systems (such as Arch 
 [source]
 ----
 # Update your package list
-sudo yum update
+sudo pacman -Syu
 # Install the Boost development libraries
 sudo pacman -S boost
 ----
